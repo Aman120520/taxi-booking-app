@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <!-- our picker styles -->
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+
+        <!--  if the library use appCompat components we will need this -->
+        <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+
+    <!-- picker styles: Selected Item box, accept all Textview XML attr -->
+    <style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/semi_bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- picker styles: Dialog/Dropdown options  -->
+    <style name="SpinnerDropDownItem" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:fontFamily">@font/semi_bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>

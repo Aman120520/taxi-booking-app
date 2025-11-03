@@ -1,0 +1,17 @@
+export const Colors = {
+  splash_screen: "#008f84",
+  primary: "#0cb0a7",
+  secondary: "#F97A5C",
+  white: "white",
+  black: "black",
+  red: "#DF4444",
+  gray: "#929191",
+  light_gray: "#D9DDDF",
+  lightest_gray: "#8e8f9124",
+  textinput_low_opacity: "#0cb0a71a",
+  low_opacity_white: "#ffffff78",
+  low_opacity_secondary: "#ffdfd900",
+  light_orange: "#f97a5c17",
+  modal_bg: "#00000040",
+  dark_gray: "#484848",
+};

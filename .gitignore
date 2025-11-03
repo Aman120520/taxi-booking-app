@@ -1,0 +1,86 @@
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.pnp.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Metro / React Native cache
+.haste-map-*/
+.metro-cache/
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Jest / Coverage
+coverage/
+*.lcov
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# iOS
+ios/DerivedData/
+ios/build/
+# CocoaPods
+ios/Pods/
+# Xcode user data
+**/xcshareddata/WorkspaceSettings.xcsettings
+**/xcuserdata/
+*.xcuserstate
+
+# Android
+android/.gradle/
+android/.cxx/
+android/.idea/
+android/build/
+android/app/build/
+android/local.properties
+
+# Android keystores
+android/app/*.keystore
+android/app/*.jks
+android/app/debug.keystore
+android/app/release.keystore
+
+# Firebase configs
+android/app/google-services.json
+ios/GoogleService-Info.plist
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Misc caches
+.expo/
+.expo-shared/
+
+# Buck
+.buckconfig.local
+buck-out/
+
